@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/prictice?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/prictice
+
+#mybatis:
+#  mapper-locations: classpath*:com/example/mongoandmybatis/mapper/*Mapper.xml
